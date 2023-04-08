@@ -1,7 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar  7 03:53:56 2023
+num = int(input("Digite um numero inteiro: "))
 
-@author: joaop
-"""
+count = 0 
+oddNumber = 1
 
+while (count < num):
+	print(oddNumber)
+	count += 1
+	oddNumber += 2
